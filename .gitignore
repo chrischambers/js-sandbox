@@ -1,0 +1,21 @@
+# -------
+# Editor:
+# -------
+
+*.swp
+.vimrc
+cscope.*
+.ropeproject
+tags
+\#*#
+*~
+
+# -----------
+# Javascript:
+# -----------
+node_modules
+coverage
+jspm_packages
+
+
+.DS_Store
