@@ -14,8 +14,9 @@ module.exports = function (config) {
     },
 
     proxies: {
-      '/lib/':    '/base/lib/',
-      '/specs/':  '/base/specs/'
+      '/lib/':            '/base/lib/',
+      '/specs/':          '/base/specs/',
+      '/jspm_packages/':  '/base/jspm_packages/'
     },
 
     preprocessors: {
