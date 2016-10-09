@@ -1,5 +1,5 @@
 {
-  "author": "Chris Chambers <magma.chambers@gmail.com",
+  "author": "Chris Chambers <magma.chambers@gmail.com>",
   "license": "MIT",
   "scripts": {
     "test": "karma start karma.conf.js",
