@@ -32,8 +32,17 @@ module.exports = function (config) {
       }
     },
 
+    reporters: ['progress'],
 
-    browsers: ['Chromium'],
-    reporters: ['progress']
+    browsers: ['ChromiumSmall'],
+    customLaunchers: {
+        ChromiumSmall: {
+            base: 'Chromium',
+            flags: [
+              '--window-size=200,200',
+              '--window-position=-400,0'
+            ]
+        }
+    }
   });
 };
